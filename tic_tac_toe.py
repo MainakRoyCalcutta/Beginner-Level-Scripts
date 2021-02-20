@@ -1,4 +1,3 @@
-print("Hello Mainak")
 board = [" "] * 9
 def my_board(board):
     print(" " + board[0] + "  | " + board[1] + " |  " + board[2] + " ")

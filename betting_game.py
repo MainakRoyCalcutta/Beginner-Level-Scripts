@@ -55,7 +55,6 @@ class Play(Deck):
         if self.bett <= self.money and self.bett != 0:
             print("Bet allowed")
             self.money = self.money - self.bett
-            # print(self.money)
             return 0
         elif self.bett > self.money and self.bett != 0:
             print("Bet not allowed")
